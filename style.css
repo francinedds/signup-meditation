@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Noto+Sans:ital,wght@0,600;0,700;1,700&family=Poppins:wght@300;500&display=swap');
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-colunm{
+    flex-basis: 50%;
+    height: 700vh;
+    background-color: #ebebeb;
+    position: relative;
+}
+
+.right-colunm{
+    flex-basis: 50%;
+    height: 700vh;
+    background-color: #ebebeb;
+    position: relative;
+}
+
+.left-colunm img{
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    margin-left: 10%;
+}
+
+h1{
+    margin-top: 60px;
+    margin-left: 30%;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    color: #ffaaca;
+    
+}
+
+h2{
+    margin-top: 5px;
+    margin-left: 30%;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #707070;
+}
+
+.content_box{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+label{
+    font-family: 'poppins', sans-serif;
+    color: #505050;
+}
+
+input{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 290px;
+    height: 3px;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #b6b6a7;
+    border-bottom-width: 1px;
+    outline-color: #ffaaca;
+}
+
+i{
+    margin-left: 10px;
+    color: #707070;
+}
+
+.btn{
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #ffaaca;
+    border: 1px solid #ffaaca;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.4;
+}
+
+hr{
+    width: 350px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    color: #505050;
+}
+
+.footer .midias{
+    margin-left: 50px;
+}
+
+.login{
+    text-decoration: underline;
+    color: #ffaaca;
+    margin-left: 5px;
+}
+
