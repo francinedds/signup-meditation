@@ -12,21 +12,21 @@
     overflow: hidden;
 }
 
-.left-colunm{
+.left-column{
     flex-basis: 50%;
     height: 700vh;
     background-color: #ebebeb;
     position: relative;
 }
 
-.right-colunm{
+.right-column{
     flex-basis: 50%;
     height: 700vh;
     background-color: #ebebeb;
     position: relative;
 }
 
-.left-colunm img{
+.left-column img{
     position: absolute;
     width: 500px;
     height: 700px;
